@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}US History Field Trip Project{% endblock %}
+
+{% block content %}
+<h1 class="main-menu-text">History of the United States</h1>
+
+<br><hr><br>
+
+<p class="main-menu-text">
+The first inhabitants of the U.S. were the Native or Indigenous Americans, who are believed to have settled in the region tens of thousands of years ago (approximately 20–30 thousand years ago). These indigenous peoples developed countless unique cultures and ways of life. Their societies were centered around agriculture, distinct forms of economy, social structures based on clans and matrilineal heritage, and a deep, strong relationship with nature. Some groups even developed complex systems of governance, such as the Iroquois Confederacy.
+</p>
+
+<br>
+
+<p class="main-menu-text">
+Britain established colonies in the U.S., controlling them according to the type of colony. These colonies acted as permanent settlements under British rule. The British introduced European laws and ideas, with a focus on plantation agriculture and economic systems. However, this rule caused many conflicts between the colonists and the British Crown, fueling a growing desire for independence.
+</p>
+
+<br>
+
+<p class="main-menu-text">
+Eventually, the colonists sought independence through the American Revolution. This struggle placed significant strain on the colonists, but in the end, they succeeded, gaining freedom and establishing a new, independent nation.
+</p>
+
+<img src="{{ url_for('static', filename='images/usa.jpg') }}" 
+     alt="USA statue of liberty" 
+     class="survey-img clickable-image" 
+     id="img1">
+
+{% endblock %}

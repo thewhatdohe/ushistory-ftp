@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}US History Field Trip Project{% endblock %}
+
+{% block content %}
+<h1 class="main-menu-text">Comparison Between the UAE and the U.S.</h1>
+
+<br><hr><br>
+
+<p class="main-menu-text">
+The UAE’s early inhabitants were nomadic desert travelers who relied on family connections and natural resources to survive, while the first inhabitants of the Americas were Native and Indigenous peoples who developed unique and diverse societies. In terms of early inhabitants, the UAE and the U.S. share some similarities, as some Native American tribes were also nomadic.
+</p>
+
+<br>
+
+<p class="main-menu-text">
+Later forms of civilization show some differences. The Americans were directly under British control, whereas the people of the UAE experienced less interference from the British, who primarily managed foreign affairs but left local governance largely to the UAE leaders.
+</p>
+
+<br>
+
+<p class="main-menu-text">
+Regarding nationhood, the Americans fought extensively to achieve independence, while the UAE unified peacefully after Britain withdrew from the Gulf. Both nations ultimately achieved their goals, but the Americans had to struggle far more to establish a sovereign nation.
+</p>
+
+<img src="{{ url_for('static', filename='images/history.png') }}" 
+     alt="History Project Overview" 
+     class="survey-img clickable-image" 
+     id="img1">
+
+{% endblock %}

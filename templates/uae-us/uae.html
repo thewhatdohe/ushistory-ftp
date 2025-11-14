@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}US History Field Trip Project{% endblock %}
+
+{% block content %}
+<h1 class="main-menu-text">History of the UAE</h1>
+
+<br><hr><br>
+
+<p class="main-menu-text">
+The first inhabitants of the UAE consisted mostly of nomadic tribes, where permanent settlements were not considered a way of life. People and tribes moved around based on their needs, usually in search of water, as life in the desert heavily depended on water and natural resources. However, there were organized communities that developed later on.
+</p>
+
+<br>
+
+<p class="main-menu-text">
+Years later, once the UAE was more established, settled life mainly revolved around maritime activities such as fishing, pearl diving, and trade through the waters surrounding the region. At this point, the UAE was more defined and had operating systems, as well as government structures such as monarchies. These monarchies were based on regions and kinships of the leaders, with each leader responsible for their family and territory.
+</p>
+
+<br>
+
+<p class="main-menu-text">
+The main reason the British occupied the UAE was its strategic geographical location. The UAE acted as a maritime trading hub, mainly connecting to India. Britain sought to participate in this trade, so they established a treaty with the UAE: the British handled foreign affairs, while the UAE managed its local and internal matters.
+</p>
+
+<br>
+
+<p class="main-menu-text">
+To conclude, the British withdrew from the Gulf in 1971, paving the way for the six emirates to unite and form the United Arab Emirates. Ras Al Khaimah joined the federation a year later, in 1972.
+</p>
+
+<img src="{{ url_for('static', filename='images/uae.jpg') }}" 
+     alt="United Arab Emirates skyline" 
+     class="survey-img clickable-image" 
+     id="img1">
+
+{% endblock %}

@@ -6,22 +6,32 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-@app.route("/subjects/webdesign")
-def webdesign():
-    return render_template("subjects/webdesign.html")
 
-@app.route("/subjects/robotics")
-def robotics():
-    return render_template("subjects/robotics.html")
+@app.route("/usa")
+def USA():
+    return render_template("uae-us/us.html")
 
-@app.route("/subjects/math")
-def math():
-    return render_template("subjects/math.html")
 
-@app.route("/subjects/chemistry")
-def chemistry():
-    return render_template("subjects/chemistry.html")
+@app.route("/uae")
+def UAE():
+    return render_template("uae-us/uae.html")
 
-@app.route("/survey")
-def survey():
-    return render_template("/survey.html")
+
+@app.route("/comparison")
+def Comparison():
+    return render_template("extra/comparison.html")
+
+
+@app.route("/conclusion")
+def Conclusion():
+    return render_template("extra/conclusion.html")
+
+
+@app.route("/citations")
+def Citations():
+    return render_template("extra/citations.html")
+
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
