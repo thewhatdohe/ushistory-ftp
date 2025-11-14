@@ -12,7 +12,7 @@ def usa():
 
 @app.route("/uae")
 def uae():
-    return render_template("extra/uae-us/use.html")
+    return render_template("extra/uae-us/uae.html")
 
 @app.route("/comparison")
 def comparison():
