@@ -8,11 +8,11 @@ def home():
 
 @app.route("/usa")
 def usa():
-    return render_template("extra/use-us/us.html")
+    return render_template("extra/uae-us/us.html")
 
 @app.route("/uae")
 def uae():
-    return render_template("extra/use-us/use.html")
+    return render_template("extra/uae-us/use.html")
 
 @app.route("/comparison")
 def comparison():
