@@ -26,6 +26,5 @@ def conclusion():
 def citations():
     return render_template("extra/citations.html")
 
-# Do NOT use debug=True in production
 if __name__ == "__main__":
     app.run()
